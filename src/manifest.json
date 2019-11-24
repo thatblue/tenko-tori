@@ -1,0 +1,13 @@
+{
+  "name": "Yacho-no-kai",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Character counter for esa.io",
+  "content_scripts": [{
+    "matches": ["https://*.esa.io/posts/*/edit"],
+    "js": [
+      "lib/jquery-3.4.1.min.js",
+      "main.js"
+    ]
+  }]
+}
