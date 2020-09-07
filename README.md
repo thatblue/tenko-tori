@@ -1,4 +1,4 @@
-# yacho-no-kai
+# Tenko-Tori
 ![logo](logo.png)
 esa向けChrome拡張(文字数カウンタ)
 
