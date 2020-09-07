@@ -9,7 +9,7 @@
     "128": "images/icon128.png"
   },
   "content_scripts": [{
-    "matches": ["https://*.esa.io/posts/*/edit"],
+    "matches": ["https://*.esa.io/posts/*/edit", "https://*.esa.io/posts/new"],
     "js": [
       "lib/jquery-3.4.1.min.js",
       "main.js"
